@@ -1,7 +1,3 @@
-# BONUS Aliases
-alias ff='fastfetch'
-alias of='onefetch'
-
 # ────────────────────────────────────────────────────────────
 # 🔌 Plugin Configurations
 # ────────────────────────────────────────────────────────────
@@ -54,9 +50,8 @@ setopt pushdminus          # Reverse pushd behavior
 
 alias cd="z"               # Use Zoxide for quick jumps
 # Shortcuts to move up levels
-alias 0="cd ~"
 alias -g ...="../.."     
-alias -g ....="../../.."  
+alias -g ....="../../.."
 
 # Quick access to recent directories
 for i in {1..9}; do
@@ -114,20 +109,5 @@ take() {
 # ⚙️ Aliases - Improved Commands
 # ────────────────────────────────────────────────────────────
 
-alias md='mkdir -pv'         # Create directories w/ output
-alias rd='rm -rf'            # Remove directory 
 alias mkdir="mkdir -pv"      
 alias cp="cp -v"             # Verbose copy
-alias mv="mv -iv"            # Interactive move
-alias rm="rm -i"             # Confirm multi-file delete
-alias lg="lazygit"           
-alias lzd="lazydocker"       
-alias cls="clear"            
-
-# ────────────────────────────────────────────────────────────
-# 🔍 Search Tools
-# ────────────────────────────────────────────────────────────
-
-alias fdf="fd --type=f --hidden"  # Find files
-alias fdd="fd --type=d --hidden"  # Find directories
-alias rgt="rg --type"             # Search by type
