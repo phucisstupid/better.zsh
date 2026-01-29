@@ -111,3 +111,4 @@ take() {
 
 alias mkdir="mkdir -pv"      
 alias cp="cp -v"             # Verbose copy
+alias mv="mv -iv"            # Verbose move
